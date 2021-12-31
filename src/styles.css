@@ -1,0 +1,17 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  background: #343a40;
+}
+
+.for-border > div.col-4 {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+.for-border > div.col-4:not(:first-child) {
+  border-left: unset;
+}
